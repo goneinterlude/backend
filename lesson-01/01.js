@@ -2,4 +2,11 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum
+let sum = 0;
+let i = 0;
+const count = 20;
+while (i <= count) {
+  sum += i;
+  i++;
+}
+
