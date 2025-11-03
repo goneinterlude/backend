@@ -5,4 +5,11 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let i = 0;
+const count = 20;
+while (i <= count) {
+  sum += i * (0 + (i % 2));
+  i++;
+}
+console.log(sum);
