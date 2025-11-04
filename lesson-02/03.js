@@ -4,6 +4,20 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 70 // тестовое значение, можно изменять
-let grade
+const score = 70; // тестовое значение, можно изменять
+let grade;
+
 // your code
+if (score >= 0 && score <= 49) {
+  grade = "F";
+} else if (score >= 50 && score <= 69) {
+  grade = "d";
+} else if (score >= 70 && score <= 79) {
+  grade = "d";
+} else if (score >= 80 && score <= 89) {
+  grade = "d";
+} else if (score >= 90 && score <= 100) {
+  grade = "d";
+} else {
+  console.log("type a corrent number between 0 and 100");
+}
