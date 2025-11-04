@@ -2,5 +2,5 @@
 let a = 6;
 let b = 10;
 function calculateAverage(a, b) {
-  (a + b) / 2;
+  return (a + b) / 2;
 }
