@@ -30,4 +30,5 @@ const map = (array, callback) => {
     const element = array[index];
     result.push(callback(element, index));
   }
+  return result;
 };
